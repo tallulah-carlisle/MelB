@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function() {
+  $(document).scrollTop(0);
+});
+
 $(".hamburger-menu").on("click",
   function() {
     $(".hamburger-menu").toggleClass("open");
