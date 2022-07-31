@@ -93,6 +93,11 @@ var animation = gsap.timeline({paused: true, duration: 30});
     x: -50,
     duration: 10
 })
+.from(".about-section figcaption", {
+  opacity: 0,
+  x: -50,
+  duration: 2
+})
 .from(".right p", {
   opacity: 0,
   y: 60,
