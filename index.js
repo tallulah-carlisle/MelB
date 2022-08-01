@@ -1,5 +1,6 @@
-document.addEventListener('DOMContentLoaded', function() {
-  $(document).scrollTop(0);
+history.scrollRestoration = 'manual';
+$(document).ready(function(){
+  $(this).scrollTop(0);
 });
 
 $(".hamburger-menu").on("click",
