@@ -1,6 +1,6 @@
 history.scrollRestoration = 'manual';
 $(document).ready(function(){
-  $(this).scrollTop(0);
+  window.scroll(0,0);
 });
 
 $(".hamburger-menu").on("click",
